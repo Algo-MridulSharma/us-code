@@ -574,5 +574,5 @@ def generate_multiple(start_year,end_year):
 
 
 if __name__ == "__main__":
-    for month in config.months[85:87]:#[68:69]:
+    for month in config.months[130:132]:#[68:69]:
         generate_stock_membership_universe1(month,df_s_og,df_i_og,perform_regression=config.perform_regression)
