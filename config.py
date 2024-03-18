@@ -18,7 +18,7 @@ reg="LR" #type of regression
 beta_period_1y=-1 #period for which beta should be calculated
 beta_period_5y=-5 #period for which beta should be calculated
 beta_value=0.5
-
+nifty_etf = 'S&P_500'
 #dict mapping months with the quarter months
 MAPPING_DICT={
     "Jan": "Jan",
@@ -41,7 +41,7 @@ monthsdict={
         "Jul":"Q3",
         "Oct":"Q4"
     }
-'''
+''''
 try:
     with open('meta_data/nifty_symbols.json') as f:
         nifty_symbols = json.load(f)
@@ -49,8 +49,7 @@ except Exception as e:
     with open('/meta_data/nifty_symbols.json') as f:
         nifty_symbols = json.load(f)
 '''
-months=('Jan 2013', 'Feb 2013', 'Mar 2013', 'Apr 2013', 'May 2013', 'Jun 2013', 'Jul 2013', 'Aug 2013', 'Sep 2013', 'Oct 2013', 'Nov 2013', 'Dec 2013',
-         'Jan 2014', 'Feb 2014', 'Mar 2014', 'Apr 2014', 'May 2014', 'Jun 2014', 'Jul 2014', 'Aug 2014', 'Sep 2014', 'Oct 2014', 'Nov 2014', 'Dec 2014',
+months=('Jan 2014', 'Feb 2014', 'Mar 2014', 'Apr 2014', 'May 2014', 'Jun 2014', 'Jul 2014', 'Aug 2014', 'Sep 2014', 'Oct 2014', 'Nov 2014', 'Dec 2014',
          'Jan 2015', 'Feb 2015', 'Mar 2015', 'Apr 2015', 'May 2015', 'Jun 2015', 'Jul 2015', 'Aug 2015', 'Sep 2015', 'Oct 2015', 'Nov 2015', 'Dec 2015',
          'Jan 2016', 'Feb 2016', 'Mar 2016', 'Apr 2016', 'May 2016', 'Jun 2016', 'Jul 2016', 'Aug 2016', 'Sep 2016', 'Oct 2016', 'Nov 2016', 'Dec 2016',
          'Jan 2017', 'Feb 2017', 'Mar 2017', 'Apr 2017', 'May 2017', 'Jun 2017', 'Jul 2017', 'Aug 2017', 'Sep 2017', 'Oct 2017', 'Nov 2017', 'Dec 2017',
@@ -59,6 +58,135 @@ months=('Jan 2013', 'Feb 2013', 'Mar 2013', 'Apr 2013', 'May 2013', 'Jun 2013', 
          'Jan 2020', 'Feb 2020', 'Mar 2020', 'Apr 2020', 'May 2020', 'Jun 2020', 'Jul 2020', 'Aug 2020', 'Sep 2020', 'Oct 2020', 'Nov 2020', 'Dec 2020',
          'Jan 2021', 'Feb 2021', 'Mar 2021', 'Apr 2021', 'May 2021', 'Jun 2021', 'Jul 2021', 'Aug 2021', 'Sep 2021', 'Oct 2021', 'Nov 2021', 'Dec 2021',
          'Jan 2022', 'Feb 2022', 'Mar 2022', 'Apr 2022', 'May 2022', 'Jun 2022', 'Jul 2022', 'Aug 2022', 'Sep 2022', 'Oct 2022', 'Nov 2022', 'Dec 2022',
-         'Jan 2023', 'Feb 2023', 'Mar 2023', 'Apr 2023', 'May 2023', 'Jun 2023', 'Jul 2023', 'Aug 2023', 'Sep 2023', 'Oct 2023', 'Nov 2023', 'Dec 2023',)# complete this tuple
-print(months[115:116])
-print(len(months))
+         'Jan 2023', 'Feb 2023', 'Mar 2023', 'Apr 2023', 'May 2023', 'Jun 2023', 'Jul 2023', 'Aug 2023',# 'Sep 2023', 'Oct 2023', 'Nov 2023', 'Dec 2023',
+         )# complete this tuple
+# print(months[114:115])
+
+with open('./trading_months_days.json') as f:
+    trading_days_by_month = json.load(f)
+    
+with open('./U3-final_selection/final_selection.json') as f:
+    final_select = json.load(f)
+    
+with open('./U3-final_selection/final_selection-bad.json') as f:
+    final_select_bad = json.load(f)
+
+with open('./U3-final_selection/final_selection-65.json') as f:
+    final_select_65 = json.load(f)
+
+with open('./U3-final_selection/final_selection-5-bad-exp.json') as f:
+    final_select_5bad = json.load(f)
+
+with open('./U3-final_selection/final_selection-5-exp.json') as f:
+    final_select_5 = json.load(f)
+
+
+u1_permutation_dict_5={}
+print("Loading Permutations")
+for month in months:
+    uni="u1"     
+    #print(month)
+    permutations_file = f'./permutations-5/permutations_{month}_{uni}.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u1_permutation_dict_5[month]=portfolio_permutations
+    
+u2_permutation_dict_5={}
+print("Loading Permutations")
+for month in months:
+    uni="u2"     
+    #print(month)
+    permutations_file = f'./permutations-5/permutations_{month}_{uni}.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u2_permutation_dict_5[month]=portfolio_permutations
+    
+u1_permutation_dict_7={}
+print("Loading Permutations")
+for month in months:
+    uni="u1"     
+    #print(month)
+    permutations_file = f'./permutations-7/permutations_{month}_{uni}.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u1_permutation_dict_7[month]=portfolio_permutations
+    
+u2_permutation_dict_7={}
+print("Loading Permutations")
+for month in months:
+    uni="u2"     
+    #print(month)
+    permutations_file = f'./permutations-7/permutations_{month}_{uni}.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u2_permutation_dict_7[month]=portfolio_permutations
+    
+u1_permutation_dict_65={}
+print("Loading Permutations")
+for month in months:
+    uni="u1"     
+    #print(month)
+    permutations_file = f'./permutations-65/permutations_{month}_{uni}.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u1_permutation_dict_65[month]=portfolio_permutations
+    
+u2_permutation_dict_65={}
+print("Loading Permutations")
+for month in months:
+    uni="u2"     
+    #print(month)
+    permutations_file = f'./permutations-65/permutations_{month}_{uni}.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u2_permutation_dict_65[month]=portfolio_permutations
+    
+u2bad_permutation_dict_5={}
+print("Loading Permutations")
+for month in months:
+    uni="u2"     
+    #print(month)
+    permutations_file = f'./permutations-5/permutations_{month}_{uni}bad.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u2bad_permutation_dict_5[month]=portfolio_permutations
+    
+u2_permutation_dict_5_etf={}
+print("Loading Permutations")
+for month in months:
+    uni="u2"     
+    #print(month)
+    permutations_file = f'./permutations-5/permutations_{month}_{uni}etf.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u2_permutation_dict_5_etf[month]=portfolio_permutations
+    
+u2_permutation_dict_5_etf_bad={}
+print("Loading Permutations")
+for month in months:
+    uni="u2"     
+    #print(month)
+    permutations_file = f'./permutations-5/permutations_{month}_{uni}etf-bad.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u2_permutation_dict_5_etf_bad[month]=portfolio_permutations
+        
+u2_permutation_dict_65_etf={}
+print("Loading Permutations")
+for month in months:
+    uni="u2"     
+    #print(month)
+    permutations_file = f'./permutations-65/permutations_{month}_{uni}etf.json'
+    with open(permutations_file) as f: # file name
+        portfolio_permutations = json.load(f)
+    u2_permutation_dict_65_etf[month]=portfolio_permutations
+    
+index_symbols = ['DGA1BSCA', 'DGUSPUBA', 'DGUSRAIA', 'DGW3TLSA', 'DJBIA1ISX', 'DJSHMB', 'DJSTEL',
+ 'DJUS', 'DJUSAI', 'DJUSAL', 'DJUSAU', 'DJUSAV', 'DJUSBE', 'DJUSCM', 'DJUSCP',
+ 'DJUSCR', 'DJUSCT', 'DJUSDB', 'DJUSDN', 'DJUSDS', 'DJUSEH', 'DJUSFD', 'DJUSFH',
+ 'DJUSFT', 'DJUSHD', 'DJUSHG', 'DJUSHI', 'DJUSHL', 'DJUSHN',
+ 'DJUSHP', 'DJUSIB', 'DJUSIF', 'DJUSIT', 'DJUSMF', 'DJUSMG', 'DJUSMR', 'DJUSMT', 'DJUSNF', 'DJUSOS', 'DJUSPG', 'DJUSPM', 'DJUSRA',
+ 'DJUSRB', 'DJUSRD', 'DJUSRN', 'DJUSRP', 'DJUSRQ', 'DJUSRS', 'DJUSRU', 'DJUSSF', 'DJUSSR',
+ 'DJUSTB', 'DJUSTY', 'DJUSVN', 'DJUSWC', 'DJUSWU', 'DSW1ATOA', 'DSW1BASA', 'DSW1CGSA', 'DSW1ENEA',
+ 'DSW1FOBA', 'DSW1IGSA', 'DSW1MDIA', 'DSW1NCGA', 'DSW1REAA', 'DSW1RTSA', 'DSW1TECA', 'DSW1TLSA',
+ 'DSW1UTIA', 'DWMI', 'DWSV', 'TTW1DOWA']

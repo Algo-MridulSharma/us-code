@@ -39,7 +39,8 @@ def portfolio_optim(covariance_matrix,num_assets,total_assets):
     problem = cp.Problem(objective, constraints)
 
     # Solve the problem
-    problem.solve()
+    # problem.solve(verbose=True)
+    problem.solve(solver=cp.GUROBI, verbose=True)
 
     # Get the optimal solution
     optimal_allocation = x.value

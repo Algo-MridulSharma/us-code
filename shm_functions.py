@@ -446,7 +446,7 @@ def generate_df_stock_membership(start_date,end_date,index,stocks,quarter):
     final_df=final_df.drop(columns=empty_columns) # removes the stocks which haven't existed for the entire given time period
     return final_df
 
-def log_returns(df:pd.DataFrame(), 
+def log_returns(df: pd.DataFrame(), 
                 tickers:list = None,
                 log_return_column_suffix:str = "_log_returns"):
     """Calculates Daily log return and adds it as a column to existing df with 

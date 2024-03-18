@@ -1,0 +1,1162 @@
+{
+    "Jan 2014": [
+        "CELG",
+        "BIIB",
+        "REGN",
+        "TGNA",
+        "AMZN",
+        "ROST",
+        "FITB",
+        "BKNG"
+    ],
+    "Feb 2014": [
+        "STZ",
+        "BIIB",
+        "REGN",
+        "NOC",
+        "VRTX",
+        "ALXN",
+        "FITB",
+        "BKNG"
+    ],
+    "Mar 2014": [
+        "BIIB",
+        "WYNN",
+        "REGN",
+        "BKNG",
+        "LMT",
+        "SPGI",
+        "ALXN",
+        "MYL"
+    ],
+    "Apr 2014": [
+        "HBAN",
+        "STZ",
+        "WYNN",
+        "REGN",
+        "NOC",
+        "EOG",
+        "MCO",
+        "ADS"
+    ],
+    "May 2014": [
+        "AIZ",
+        "PXD",
+        "AGN",
+        "STZ",
+        "HP",
+        "OKE",
+        "ALXN",
+        "MYL"
+    ],
+    "Jun 2014": [
+        "PXD",
+        "AGN",
+        "WYNN",
+        "TAP",
+        "NOC",
+        "ADBE",
+        "DD",
+        "OKE"
+    ],
+    "Jul 2014": [
+        "STZ",
+        "TAP",
+        "CRM",
+        "WMB",
+        "SPGI",
+        "ADSK",
+        "OKE",
+        "ORLY"
+    ],
+    "Aug 2014": [
+        "AGN",
+        "BIIB",
+        "STX",
+        "UAA",
+        "TAP",
+        "BKNG",
+        "ADSK",
+        "ALXN"
+    ],
+    "Sep 2014": [
+        "STZ",
+        "AGN",
+        "BIIB",
+        "UAA",
+        "TAP",
+        "HP",
+        "MCK",
+        "SNDK"
+    ],
+    "Oct 2014": [
+        "CF",
+        "UHS",
+        "UAA",
+        "MO",
+        "TAP",
+        "VRTX",
+        "CMG",
+        "URI"
+    ],
+    "Nov 2014": [
+        "REGN",
+        "UAA",
+        "MO",
+        "AVGO",
+        "WMB",
+        "ORLY",
+        "ALXN",
+        "URI"
+    ],
+    "Dec 2014": [
+        "CELG",
+        "UAA",
+        "MO",
+        "TAP",
+        "AVGO",
+        "WMB",
+        "ORLY",
+        "URI"
+    ],
+    "Jan 2015": [
+        "STZ",
+        "AGN",
+        "KR",
+        "REGN",
+        "KDP",
+        "AVGO",
+        "ORLY",
+        "MNST"
+    ],
+    "Feb 2015": [
+        "STZ",
+        "AGN",
+        "LOW",
+        "UNH",
+        "REGN",
+        "ANDV",
+        "MO",
+        "MAC"
+    ],
+    "Mar 2015": [
+        "RHI",
+        "STZ",
+        "LOW",
+        "MO",
+        "TAP",
+        "CI",
+        "ORLY",
+        "SHW"
+    ],
+    "Apr 2015": [
+        "STZ",
+        "AGN",
+        "LOW",
+        "REGN",
+        "MO",
+        "ROST",
+        "ORLY",
+        "AAL"
+    ],
+    "May 2015": [
+        "AGN",
+        "STZ",
+        "UAA",
+        "MO",
+        "AET",
+        "CRM",
+        "AAL",
+        "SBUX"
+    ],
+    "Jun 2015": [
+        "AGN",
+        "UNH",
+        "LLY",
+        "AMZN",
+        "UAA",
+        "AMGN",
+        "AVGO",
+        "EFX"
+    ],
+    "Jul 2015": [
+        "AVB",
+        "ANDV",
+        "AMZN",
+        "LOW",
+        "SBUX",
+        "REGN",
+        "ORLY",
+        "SHW"
+    ],
+    "Aug 2015": [
+        "CELG",
+        "PLL",
+        "REGN",
+        "ANDV",
+        "UAA",
+        "MO",
+        "DHI",
+        "SBUX"
+    ],
+    "Sep 2015": [
+        "UNH",
+        "PLL",
+        "REGN",
+        "ANDV",
+        "AMZN",
+        "ORLY",
+        "VMC",
+        "SBUX"
+    ],
+    "Oct 2015": [
+        "LOW",
+        "UNH",
+        "TSS",
+        "REGN",
+        "ANDV",
+        "UAA",
+        "V",
+        "WBA"
+    ],
+    "Nov 2015": [
+        "STZ",
+        "TSS",
+        "REGN",
+        "UAA",
+        "MO",
+        "AET",
+        "ORLY",
+        "VMC"
+    ],
+    "Dec 2015": [
+        "TSS",
+        "REGN",
+        "GOOGL",
+        "ANDV",
+        "VRSN",
+        "AVGO",
+        "CI",
+        "ORLY"
+    ],
+    "Jan 2016": [
+        "TSS",
+        "ANDV",
+        "AVGO",
+        "CI",
+        "ORLY",
+        "MNST",
+        "SBUX",
+        "VLO"
+    ],
+    "Feb 2016": [
+        "PSA",
+        "NDAQ",
+        "TAP",
+        "NKE",
+        "ORLY",
+        "HRL",
+        "VMC",
+        "SBUX"
+    ],
+    "Mar 2016": [
+        "AGN",
+        "PSA",
+        "AMZN",
+        "VRSN",
+        "NKE",
+        "NI",
+        "HRL",
+        "ATVI"
+    ],
+    "Apr 2016": [
+        "STZ",
+        "GOOGL",
+        "AMZN",
+        "WEC",
+        "VRSN",
+        "EXR",
+        "NI",
+        "ATVI"
+    ],
+    "May 2016": [
+        "AMZN",
+        "MO",
+        "TAP",
+        "NOC",
+        "EXR",
+        "NI",
+        "VMC",
+        "ATVI"
+    ],
+    "Jun 2016": [
+        "AWK",
+        "AMZN",
+        "TAP",
+        "VRSN",
+        "EXR",
+        "NI",
+        "VMC",
+        "ATVI"
+    ],
+    "Jul 2016": [
+        "AWK",
+        "EQIX",
+        "MO",
+        "KLAC",
+        "VMC",
+        "TAP",
+        "NI",
+        "ATVI"
+    ],
+    "Aug 2016": [
+        "AWK",
+        "STZ",
+        "MAS",
+        "TAP",
+        "CMS",
+        "VMC",
+        "AVY",
+        "ATVI"
+    ],
+    "Sep 2016": [
+        "AWK",
+        "CINF",
+        "WELL",
+        "AMZN",
+        "TAP",
+        "TXN",
+        "ADSK",
+        "NI"
+    ],
+    "Oct 2016": [
+        "AWK",
+        "CHTR",
+        "AYI",
+        "TAP",
+        "MTD",
+        "HP",
+        "ADSK",
+        "VTR"
+    ],
+    "Nov 2016": [
+        "TDG",
+        "AWK",
+        "BAX",
+        "CHTR",
+        "LLTC",
+        "SPGI",
+        "ADSK",
+        "LNT"
+    ],
+    "Dec 2016": [
+        "AWK",
+        "UNH",
+        "MLM",
+        "CHTR",
+        "CMA",
+        "AVGO",
+        "DTE",
+        "FCX"
+    ],
+    "Jan 2017": [
+        "UNH",
+        "MLM",
+        "CHTR",
+        "LLTC",
+        "CMS",
+        "RF",
+        "FCX",
+        "URI"
+    ],
+    "Feb 2017": [
+        "BSX",
+        "MO",
+        "CMA",
+        "ADSK",
+        "SWKS",
+        "XEC",
+        "FCX",
+        "URI"
+    ],
+    "Mar 2017": [
+        "AMZN",
+        "MTB",
+        "AMAT",
+        "DTE",
+        "FCX",
+        "AIV",
+        "ATVI",
+        "URI"
+    ],
+    "Apr 2017": [
+        "CHTR",
+        "EOG",
+        "AMAT",
+        "UAL",
+        "EXPE",
+        "DTE",
+        "DXC",
+        "ATVI"
+    ],
+    "May 2017": [
+        "BAC",
+        "LRCX",
+        "NVDA",
+        "AMAT",
+        "UAL",
+        "DTE",
+        "DXC",
+        "ATVI"
+    ],
+    "Jun 2017": [
+        "NFLX",
+        "CHTR",
+        "LRCX",
+        "ADSK",
+        "NVDA",
+        "UAL",
+        "EA",
+        "NEE"
+    ],
+    "Jul 2017": [
+        "STZ",
+        "LRCX",
+        "SCHW",
+        "ALK",
+        "FITB",
+        "HAS",
+        "DXC",
+        "LUV"
+    ],
+    "Aug 2017": [
+        "STZ",
+        "AET",
+        "LRCX",
+        "FB",
+        "ETFC",
+        "LUV",
+        "ATVI",
+        "URI"
+    ],
+    "Sep 2017": [
+        "BA",
+        "CHTR",
+        "ALGN",
+        "LRCX",
+        "NVDA",
+        "FB",
+        "DXC",
+        "ATVI"
+    ],
+    "Oct 2017": [
+        "STZ",
+        "XEL",
+        "AVGO",
+        "NVDA",
+        "RF",
+        "FB",
+        "ATVI",
+        "ALGN"
+    ],
+    "Nov 2017": [
+        "NFLX",
+        "BAC",
+        "AET",
+        "XEL",
+        "CMA",
+        "ADSK",
+        "EA",
+        "FB"
+    ],
+    "Dec 2017": [
+        "CSX",
+        "ALGN",
+        "WEC",
+        "LRCX",
+        "NVDA",
+        "FB",
+        "ATVI",
+        "CCI"
+    ],
+    "Jan 2018": [
+        "STZ",
+        "CSX",
+        "BA",
+        "LRCX",
+        "NVDA",
+        "CLX",
+        "FB",
+        "AVY"
+    ],
+    "Feb 2018": [
+        "ATVI",
+        "DG",
+        "DXC",
+        "STZ",
+        "TSS",
+        "NVDA",
+        "RTN",
+        "IT"
+    ],
+    "Mar 2018": [
+        "LRCX",
+        "ALGN",
+        "DXC",
+        "STZ",
+        "NVDA",
+        "AMZN",
+        "RTN",
+        "FCX"
+    ],
+    "Apr 2018": [
+        "TTWO",
+        "ALGN",
+        "DXC",
+        "NVDA",
+        "ETFC",
+        "BA",
+        "NEE",
+        "AMZN"
+    ],
+    "May 2018": [
+        "ALGN",
+        "KDP",
+        "RMD",
+        "NVDA",
+        "NFLX",
+        "ETFC",
+        "BA",
+        "NEE"
+    ],
+    "Jun 2018": [
+        "ALGN",
+        "EL",
+        "NVDA",
+        "NFLX",
+        "ETFC",
+        "BA",
+        "SIVB",
+        "NEE"
+    ],
+    "Jul 2018": [
+        "TTWO",
+        "CPRT",
+        "ALGN",
+        "ABMD",
+        "EL",
+        "RMD",
+        "NVDA",
+        "AMZN"
+    ],
+    "Aug 2018": [
+        "IDXX",
+        "VRSN",
+        "ALGN",
+        "NEE",
+        "ABMD",
+        "UNH",
+        "EOG",
+        "TSS"
+    ],
+    "Sep 2018": [
+        "CPRT",
+        "ALGN",
+        "ABMD",
+        "NVDA",
+        "CNC",
+        "EXC",
+        "NKE",
+        "IDXX"
+    ],
+    "Oct 2018": [
+        "NVDA",
+        "ADBE",
+        "EXC",
+        "COST",
+        "ABMD",
+        "MSCI",
+        "BR",
+        "BA"
+    ],
+    "Nov 2018": [
+        "ABMD",
+        "MKC",
+        "EW",
+        "DRI",
+        "ROST",
+        "NFLX",
+        "CSX",
+        "VZ"
+    ],
+    "Dec 2018": [
+        "ABMD",
+        "EW",
+        "MSFT",
+        "XLNX",
+        "DRI",
+        "ADBE",
+        "NEE",
+        "BSX"
+    ],
+    "Jan 2019": [
+        "ABMD",
+        "MKC",
+        "EW",
+        "FTNT",
+        "TDG",
+        "BSX",
+        "DUK",
+        "VZ"
+    ],
+    "Feb 2019": [
+        "ABMD",
+        "EW",
+        "PG",
+        "NFLX",
+        "ISRG",
+        "GWW",
+        "WEC",
+        "AEE"
+    ],
+    "Mar 2019": [
+        "EW",
+        "AMT",
+        "INTU",
+        "FTNT",
+        "ISRG",
+        "CDNS",
+        "WEC",
+        "VZ"
+    ],
+    "Apr 2019": [
+        "OKE",
+        "WCG",
+        "MKC",
+        "EW",
+        "NFLX",
+        "AVGO",
+        "CDNS",
+        "WEC"
+    ],
+    "May 2019": [
+        "AMT",
+        "PG",
+        "NSC",
+        "CHD",
+        "TDG",
+        "CDNS",
+        "WEC",
+        "LOW"
+    ],
+    "Jun 2019": [
+        "AMT",
+        "TSS",
+        "PG",
+        "YUM",
+        "MSCI",
+        "CDNS",
+        "WEC",
+        "AWK"
+    ],
+    "Jul 2019": [
+        "MKTX",
+        "APD",
+        "TSS",
+        "PG",
+        "YUM",
+        "XEL",
+        "CDNS",
+        "AWK"
+    ],
+    "Aug 2019": [
+        "AMT",
+        "TSS",
+        "YUM",
+        "XEL",
+        "GPN",
+        "CDNS",
+        "ULTA",
+        "PGR"
+    ],
+    "Sep 2019": [
+        "AMT",
+        "ZTS",
+        "XLNX",
+        "CHD",
+        "CDNS",
+        "WEC",
+        "LHX",
+        "AWK"
+    ],
+    "Oct 2019": [
+        "CPRT",
+        "AMT",
+        "EL",
+        "CDW",
+        "EXR",
+        "SBUX",
+        "WEC",
+        "CINF"
+    ],
+    "Nov 2019": [
+        "CPRT",
+        "SBAC",
+        "MAA",
+        "MSCI",
+        "KEYS",
+        "GPN",
+        "WEC",
+        "AWK"
+    ],
+    "Dec 2019": [
+        "CPRT",
+        "CHTR",
+        "EW",
+        "AIZ",
+        "MSCI",
+        "TDG",
+        "AMD",
+        "WEC"
+    ],
+    "Jan 2020": [
+        "AAPL",
+        "CPRT",
+        "MKTX",
+        "EW",
+        "TDG",
+        "LDOS",
+        "PAYC",
+        "WEC"
+    ],
+    "Feb 2020": [
+        "LRCX",
+        "MSI",
+        "MSCI",
+        "NEE",
+        "GPN",
+        "AMD",
+        "PAYC",
+        "WEC"
+    ],
+    "Mar 2020": [
+        "CPRT",
+        "DHI",
+        "MSFT",
+        "MSCI",
+        "NEE",
+        "LDOS",
+        "EQIX",
+        "PAYC"
+    ],
+    "Apr 2020": [
+        "LRCX",
+        "CHTR",
+        "ODFL",
+        "MSFT",
+        "MSCI",
+        "NEE",
+        "LDOS",
+        "COST"
+    ],
+    "May 2020": [
+        "ODFL",
+        "KLAC",
+        "SBAC",
+        "MSCI",
+        "LDOS",
+        "EQIX",
+        "PAYC",
+        "AMGN"
+    ],
+    "Jun 2020": [
+        "CCI",
+        "LRCX",
+        "ODFL",
+        "KLAC",
+        "NEE",
+        "NOW",
+        "AMD",
+        "PAYC"
+    ],
+    "Jul 2020": [
+        "LRCX",
+        "ODFL",
+        "NVDA",
+        "POOL",
+        "ES",
+        "PODD",
+        "AMD",
+        "TER"
+    ],
+    "Aug 2020": [
+        "PYPL",
+        "TTWO",
+        "LRCX",
+        "POOL",
+        "NOW",
+        "PODD",
+        "AMD",
+        "AWK"
+    ],
+    "Sep 2020": [
+        "PYPL",
+        "WST",
+        "ODFL",
+        "POOL",
+        "BBY",
+        "NOW",
+        "AMD",
+        "DLR"
+    ],
+    "Oct 2020": [
+        "PYPL",
+        "WST",
+        "MKTX",
+        "ETSY",
+        "NOW",
+        "DLR",
+        "AMD",
+        "FCX"
+    ],
+    "Nov 2020": [
+        "PYPL",
+        "POOL",
+        "NFLX",
+        "ETSY",
+        "NOW",
+        "AMD",
+        "TGT",
+        "BIO"
+    ],
+    "Dec 2020": [
+        "PYPL",
+        "WST",
+        "TMUS",
+        "ZBRA",
+        "NOW",
+        "AMD",
+        "TER",
+        "AMZN"
+    ],
+    "Jan 2021": [
+        "AAPL",
+        "PYPL",
+        "ALGN",
+        "ODFL",
+        "DE",
+        "MSCI",
+        "AMD",
+        "CDNS"
+    ],
+    "Feb 2021": [
+        "AMD",
+        "PYPL",
+        "TTWO",
+        "TER",
+        "ZBRA",
+        "ALGN",
+        "TSLA",
+        "TMUS"
+    ],
+    "Mar 2021": [
+        "ZBRA",
+        "DE",
+        "SIVB",
+        "AMD",
+        "TER",
+        "CDNS",
+        "MU",
+        "TSLA"
+    ],
+    "Apr 2021": [
+        "LRCX",
+        "OKE",
+        "KLAC",
+        "CZR",
+        "ZBRA",
+        "DE",
+        "SIVB",
+        "RCL"
+    ],
+    "May 2021": [
+        "PYPL",
+        "LRCX",
+        "CZR",
+        "POOL",
+        "DE",
+        "PHM",
+        "SIVB",
+        "AMAT"
+    ],
+    "Jun 2021": [
+        "LRCX",
+        "CZR",
+        "ETSY",
+        "PWR",
+        "IDXX",
+        "HPQ",
+        "TT",
+        "GM"
+    ],
+    "Jul 2021": [
+        "CZR",
+        "ZBRA",
+        "COF",
+        "ETSY",
+        "PWR",
+        "IDXX",
+        "AMAT",
+        "TT"
+    ],
+    "Aug 2021": [
+        "WAT",
+        "COF",
+        "FTNT",
+        "CBRE",
+        "KEYS",
+        "PWR",
+        "AMAT",
+        "CRL"
+    ],
+    "Sep 2021": [
+        "WST",
+        "EFX",
+        "ZBRA",
+        "COF",
+        "ETSY",
+        "AMAT",
+        "IT",
+        "FCX"
+    ],
+    "Oct 2021": [
+        "ENPH",
+        "ZBRA",
+        "COF",
+        "EXR",
+        "CF",
+        "GNRC",
+        "IT",
+        "FCX"
+    ],
+    "Nov 2021": [
+        "TECH",
+        "CZR",
+        "ENPH",
+        "SIVB",
+        "ETSY",
+        "EXR",
+        "AMD",
+        "FCX"
+    ],
+    "Dec 2021": [
+        "ODFL",
+        "SCHW",
+        "EFX",
+        "INTU",
+        "ENPH",
+        "FTNT",
+        "MAA",
+        "AMD"
+    ],
+    "Jan 2022": [
+        "ODFL",
+        "KLAC",
+        "FTNT",
+        "MAA",
+        "SIVB",
+        "CVS",
+        "EPAM",
+        "EXR"
+    ],
+    "Feb 2022": [
+        "ODFL",
+        "FTNT",
+        "COP",
+        "EXR",
+        "ORLY",
+        "COST",
+        "IT",
+        "PM"
+    ],
+    "Mar 2022": [
+        "LYV",
+        "IPG",
+        "FTNT",
+        "CNC",
+        "STX",
+        "PKI",
+        "COST",
+        "PLD"
+    ],
+    "Apr 2022": [
+        "UNH",
+        "MPWR",
+        "ENPH",
+        "FTNT",
+        "HES",
+        "EXR",
+        "NEM",
+        "IT"
+    ],
+    "May 2022": [
+        "ENPH",
+        "FTNT",
+        "AZO",
+        "COP",
+        "HES",
+        "COST",
+        "IT",
+        "PLD"
+    ],
+    "Jun 2022": [
+        "MPWR",
+        "ENPH",
+        "WMB",
+        "FTNT",
+        "ANTM",
+        "CF",
+        "COST",
+        "ABC"
+    ],
+    "Jul 2022": [
+        "CAR",
+        "COR",
+        "COP",
+        "ON",
+        "PANW",
+        "NEM",
+        "EP",
+        "MCK"
+    ],
+    "Aug 2022": [
+        "CAR",
+        "ENPH",
+        "CVX",
+        "HES",
+        "ON",
+        "PWR",
+        "COST",
+        "EP"
+    ],
+    "Sep 2022": [
+        "ENPH",
+        "MOH",
+        "HES",
+        "ON",
+        "PWR",
+        "ATI",
+        "EP",
+        "FSLR"
+    ],
+    "Oct 2022": [
+        "DG",
+        "ENPH",
+        "GPC",
+        "HES",
+        "ON",
+        "NOC",
+        "CDNS",
+        "ABC"
+    ],
+    "Nov 2022": [
+        "MPC",
+        "HSY",
+        "ENPH",
+        "GPC",
+        "HES",
+        "ON",
+        "ORLY",
+        "MCK"
+    ],
+    "Dec 2022": [
+        "KDP",
+        "MPC",
+        "HSY",
+        "ENPH",
+        "CVX",
+        "HES",
+        "ORLY",
+        "ABC"
+    ],
+    "Jan 2023": [
+        "MPC",
+        "HSY",
+        "CVX",
+        "AZO",
+        "HES",
+        "ORLY",
+        "ADM",
+        "NOC"
+    ],
+    "Feb 2023": [
+        "PFG",
+        "CVX",
+        "HES",
+        "ORLY",
+        "PWR",
+        "CDNS",
+        "AJG",
+        "URI"
+    ],
+    "Mar 2023": [
+        "MSI",
+        "SNA",
+        "EPAM",
+        "HES",
+        "ORLY",
+        "HUM",
+        "PWR",
+        "CDNS"
+    ],
+    "Apr 2023": [
+        "AXON",
+        "SANM",
+        "FICO",
+        "HES",
+        "PODD",
+        "PWR",
+        "JBL",
+        "TT"
+    ],
+    "May 2023": [
+        "AXON",
+        "NVDA",
+        "MSI",
+        "HES",
+        "CMG",
+        "HUBB",
+        "PWR",
+        "GWW"
+    ],
+    "Jun 2023": [
+        "AXON",
+        "CPRT",
+        "ACGL",
+        "CMG",
+        "AVGO",
+        "PWR",
+        "CDNS",
+        "JBL"
+    ],
+    "Jul 2023": [
+        "AXON",
+        "BLDR",
+        "PHM",
+        "COR",
+        "AVGO",
+        "ON",
+        "JBL",
+        "ABC"
+    ],
+    "Aug 2023": [
+        "ON",
+        "AXON",
+        "BLDR",
+        "FSLR",
+        "JBL",
+        "COR",
+        "PANW",
+        "HES"
+    ]
+}

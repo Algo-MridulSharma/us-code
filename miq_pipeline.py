@@ -14,6 +14,7 @@ import miqp as miqp
 import os
 import time
 import shm_functions
+import random
 
 #try:
 import config
@@ -23,7 +24,7 @@ import config
 
 
 
-def generate_stocks_dataframe(stocks:list,start_date:dt.datetime,end_date:dt.datetime)->pd.DataFrame():
+def generate_stocks_dataframe(stocks:list,start_date:dt.datetime,end_date:dt.datetime):
   #TODO: add case to handle niftybees.ns inclusion, drop na rows for case 5
   stocks_historical_data_path=config.stocks_historical_data_src
   if os.path.exists(stocks_historical_data_path):
@@ -151,21 +152,32 @@ def variance_optim_pipeline_max_sharpe_ratio_modified_covariance(tickers,window_
 
 
 if __name__ == "__main__":
-    for month in config.months[:1]:
-      days_dict= config.trading_days_by_month[month]
-      for trading_day in config.trading_days[:1]:
-        date=days_dict[trading_day]
-        with open(f"data/stocks-list/{month}.json",'r') as e:
-          buying_data=json.load(e)
-          universe2=buying_data[date]['Filter 2 Stocks']
-          universe3=variance_optim_pipeline_max_sharpe_ratio_modified_covariance(universe2,
-                                                                                 window_size=config.days,
-                                                                                 n_stocks=config.num_stocks,
-                                                                                 date=date)
+  universe3 = {}
+  not_found = list()
+  for month in config.months[:]:
+    days_dict= config.trading_days_by_month[month]
+    # for trading_day in config.trading_days[:1]:
+    date=days_dict["1"]
+    with open(f"shm_results/stocks-list-65/{month}.json",'r') as e:
+      buying_data=json.load(e)
+      universe2=buying_data[date]['Filter 2 Stocks etf']
+      if(len(universe2) > 100):
+        random.shuffle(universe2)
+        universe2 = universe2[:99]
+        
+      # universe3[month]=variance_optim_pipeline_max_sharpe_ratio_modified_covariance(universe2,
+      #                                                                         window_size=config.days,
+      #                                                                         n_stocks=config.num_stocks,
+      # date=date)
+      try:
+        universe3[month]=variance_optim_pipeline_modified(universe2, window_size=config.days, n_stocks=config.num_stocks, date=date)
+      except:
+        not_found.append(month)
 
 
-
-          
-          print('')
+      print(not_found)  
+      out_file = open('./U3-final_selection/final_selection-65-etf.json', "w") 
+      json.dump(universe3, out_file, indent=4)
+    
 
          
